@@ -1,7 +1,21 @@
 .App {
 	text-align: center;
+	box-sizing: border-box;
 
-	button {
-		font-weight: bold;
-	}
+	.form-container {
+    max-width: 400px; /* Maximum width of the form box */
+    margin: auto; /* Center horizontally */
+    padding: 20px; /* Space inside the box */
+    border: 1px solid #ccc; /* Border around the box */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    background-color: #f9f9f9; /* Background color */
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center items horizontally */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center vertically */
+}
 }

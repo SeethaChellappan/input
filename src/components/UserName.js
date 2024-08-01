@@ -1,4 +1,5 @@
 import { React } from 'react';
+
 const UserName = (context) => {
 	const { state: { username }, actions: { setUserName }} = context;
 
